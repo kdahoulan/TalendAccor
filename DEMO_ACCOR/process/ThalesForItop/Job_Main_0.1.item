@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
+  <context confirmationNeeded="false" name="DEV">
     <contextParameter comment="" name="vNomFichierLog" prompt="vNomFichierLog?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="vNomFichierConf" prompt="vNomFichierConf?" promptNeeded="false" type="id_String" value="D:\\[Arismore] VEILLE\\BENCHMARK\\TalendOpenStudio\\Data_Integration\\Thales\\config\\Job_Main_Params.cfg"/>
     <contextParameter comment="" name="CLOG_Debug" prompt="CLOG_Debug?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="2"/>
@@ -9,8 +9,32 @@
     <contextParameter comment="" name="CLOG_Info" prompt="CLOG_Info?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="3"/>
     <contextParameter comment="" name="CLOG_Trace" prompt="CLOG_Trace?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="CLOG_Warn" prompt="CLOG_Warn?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="4"/>
-    <contextParameter comment="" name="param1" prompt="param1?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value=""/>
-    <contextParameter comment="" name="param2" prompt="param2?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value=""/>
+    <contextParameter comment="" name="param1" prompt="param1?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="toto"/>
+    <contextParameter comment="" name="param2" prompt="param2?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tata"/>
+  </context>
+  <context confirmationNeeded="false" name="QA">
+    <contextParameter comment="" name="vNomFichierLog" prompt="vNomFichierLog?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="vNomFichierConf" prompt="vNomFichierConf?" promptNeeded="false" type="id_String" value="D:\\[Arismore] VEILLE\\BENCHMARK\\TalendOpenStudio\\Data_Integration\\Thales\\config\\Job_Main_Params.cfg"/>
+    <contextParameter comment="" name="param1" prompt="param1?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tutu"/>
+    <contextParameter comment="" name="param2" prompt="param2?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="lulu"/>
+    <contextParameter comment="" name="CLOG_Trace" prompt="CLOG_Trace?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="CLOG_Debug" prompt="CLOG_Debug?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="2"/>
+    <contextParameter comment="" name="CLOG_Info" prompt="CLOG_Info?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="3"/>
+    <contextParameter comment="" name="CLOG_Warn" prompt="CLOG_Warn?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="4"/>
+    <contextParameter comment="" name="CLOG_Error" prompt="CLOG_Error?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="5"/>
+    <contextParameter comment="" name="CLOG_Fatal" prompt="CLOG_Fatal?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="6"/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" name="vNomFichierLog" prompt="vNomFichierLog?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="vNomFichierConf" prompt="vNomFichierConf?" promptNeeded="false" type="id_String" value="D:\\[Arismore] VEILLE\\BENCHMARK\\TalendOpenStudio\\Data_Integration\\Thales\\config\\Job_Main_Params.cfg"/>
+    <contextParameter comment="" name="CLOG_Debug" prompt="CLOG_Debug?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="2"/>
+    <contextParameter comment="" name="CLOG_Error" prompt="CLOG_Error?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="5"/>
+    <contextParameter comment="" name="CLOG_Fatal" prompt="CLOG_Fatal?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="6"/>
+    <contextParameter comment="" name="CLOG_Info" prompt="CLOG_Info?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="3"/>
+    <contextParameter comment="" name="CLOG_Trace" prompt="CLOG_Trace?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="CLOG_Warn" prompt="CLOG_Warn?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="4"/>
+    <contextParameter comment="" name="param1" prompt="param1?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tito"/>
+    <contextParameter comment="" name="param2" prompt="param2?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tita"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -127,15 +151,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="64">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Calcul du nom du fichier de logs pour tout le projet&#xA;String vNomFichierLog = TalendDate.getDate(&quot;dd-MM-yyyy_HHmmss&quot;);&#xA;&#xA;context.vNomFichierLog = vNomFichierLog + &quot;.log&quot;;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.io.*;"/>
-    <elementParameter field="TEXT" name="LABEL" value="&lt;b>initJob&lt;/b>"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_3"/>
-  </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="320">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;@@@DEBUT du module &quot; + projectName + &quot;...&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="context.CLOG_Trace"/>
@@ -143,7 +159,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_1"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="480">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -163,7 +179,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_2"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="640">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -195,78 +211,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_2"/>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.vNomFichierConf"/>
-    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;=&quot;"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HEADER" value="0"/>
-    <elementParameter field="TEXT" name="FOOTER" value="0"/>
-    <elementParameter field="TEXT" name="LIMIT" value=""/>
-    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
-    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Talend/5.3.1/studio/Talend-Studio-r104014-V5.3.1/workspace_remote&quot;" show="false"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
-    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
-    <elementParameter field="CHECK" name="RANDOM" value="false"/>
-    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
-    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
-    <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
-    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
-    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
-    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
-      <elementValue elementRef="DECODE" value="false"/>
-    </elementParameter>
-    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="&lt;b>ReadContextFile&lt;/b>"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tContextLoad_1" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
-    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
-    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
-    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
-    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
-    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
-    <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tContextLoad_1">
-      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="480">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_3" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Problem with Job_Process_001...&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="context.CLOG_Error"/>
@@ -274,7 +219,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_3"/>
   </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="640">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_4" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Problem with Job_Process_002...&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="context.CLOG_Error"/>
@@ -282,11 +227,8 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_4"/>
   </node>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_3">
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tWarn_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tWarn_1" offsetLabelX="0" offsetLabelY="0" source="tWarn_1" target="tRunJob_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
@@ -300,31 +242,11 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tWarn_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="Context" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tContextLoad_1">
-    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="value"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="key"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Context" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tWarn_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
-  </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
@@ -351,13 +273,6 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Chargement du fichier de context"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_3" show="false"/>
