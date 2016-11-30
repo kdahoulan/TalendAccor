@@ -170,6 +170,13 @@
       <relatedItems xmi:id="_PQtNObbcEeaSkvYaedcXPQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_PQtNOrbcEeaSkvYaedcXPQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_PQtNO7bcEeaSkvYaedcXPQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TF_VULbfEeaSkvYaedcXPQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TF_VUbbfEeaSkvYaedcXPQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TF_VUrbfEeaSkvYaedcXPQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TF_VU7bfEeaSkvYaedcXPQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TF_VVLbfEeaSkvYaedcXPQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TF_VVbbfEeaSkvYaedcXPQ" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TF_VVrbfEeaSkvYaedcXPQ" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_PQtNPLbcEeaSkvYaedcXPQ">
       <baseItem xmi:id="_PQtNPbbcEeaSkvYaedcXPQ" id="_3HqLoKdbEeaf7u_rTb06Hw" version="0.1" type="job"/>
