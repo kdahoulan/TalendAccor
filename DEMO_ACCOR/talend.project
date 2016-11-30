@@ -150,6 +150,13 @@
       <relatedItems xmi:id="_PQsmK7bcEeaSkvYaedcXPQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_PQsmLLbcEeaSkvYaedcXPQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_PQsmLbbcEeaSkvYaedcXPQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_P4rr0LbfEeaSkvYaedcXPQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_P4rr0bbfEeaSkvYaedcXPQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_P4rr0rbfEeaSkvYaedcXPQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_P4rr07bfEeaSkvYaedcXPQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_P4rr1LbfEeaSkvYaedcXPQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_P4rr1bbfEeaSkvYaedcXPQ" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_P4rr1rbfEeaSkvYaedcXPQ" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_PQtNMLbcEeaSkvYaedcXPQ">
       <baseItem xmi:id="_PQtNMbbcEeaSkvYaedcXPQ" id="_18IMoKdbEeaf7u_rTb06Hw" version="0.1" type="job"/>
