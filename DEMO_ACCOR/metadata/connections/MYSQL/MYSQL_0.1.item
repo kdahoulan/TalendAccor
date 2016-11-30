@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_elNckLbdEeaSkvYaedcXPQ" name="MYSQL" id="_WCNgwLbdEeaSkvYaedcXPQ" label="MYSQL" dataPackage="_enwaQLbdEeaSkvYaedcXPQ _enxoYLbdEeaSkvYaedcXPQ _enxoYbbdEeaSkvYaedcXPQ _enxoYrbdEeaSkvYaedcXPQ _enxoY7bdEeaSkvYaedcXPQ _enxoZLbdEeaSkvYaedcXPQ _enxoZbbdEeaSkvYaedcXPQ _enxoZrbdEeaSkvYaedcXPQ _enxoZ7bdEeaSkvYaedcXPQ _enxoaLbdEeaSkvYaedcXPQ _enxoabbdEeaSkvYaedcXPQ" ContextMode="true" ContextId="_eOwEYLbdEeaSkvYaedcXPQ" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.MYSQL_Port" Username="context.MYSQL_Login" Password="context.MYSQL_Password" ServerName="context.MYSQL_Server" DatasourceName="" FileFieldName="" SID="context.MYSQL_Database" SqlSynthax="Syntaxe SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.MYSQL_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_elVYYLbdEeaSkvYaedcXPQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_emHbgLbdEeaSkvYaedcXPQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_emPXULbdEeaSkvYaedcXPQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_emPXUbbdEeaSkvYaedcXPQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_emP-YLbdEeaSkvYaedcXPQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_emP-YbbdEeaSkvYaedcXPQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_emP-YrbdEeaSkvYaedcXPQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_emP-Y7bdEeaSkvYaedcXPQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_emzYALbdEeaSkvYaedcXPQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_emzYAbbdEeaSkvYaedcXPQ" tag="DB ProductVersion" value="5.7.16-log"/>
+    <taggedValue xmi:id="_emzYArbdEeaSkvYaedcXPQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_elVYYbbdEeaSkvYaedcXPQ" key="CONN_PARA_KEY_USERNAME" value="context.MYSQL_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enwaQLbdEeaSkvYaedcXPQ" name="information_schema" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoYLbdEeaSkvYaedcXPQ" name="mysql" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoYbbdEeaSkvYaedcXPQ" name="performance_schema" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoYrbdEeaSkvYaedcXPQ" name="repository_manager" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoY7bdEeaSkvYaedcXPQ" name="sakila" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoZLbdEeaSkvYaedcXPQ" name="sys" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoZbbdEeaSkvYaedcXPQ" name="talend_621_accor" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoZrbdEeaSkvYaedcXPQ" name="talend_amc" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoZ7bdEeaSkvYaedcXPQ" name="talend_data_quality" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoaLbdEeaSkvYaedcXPQ" name="talend_dq" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_enxoabbdEeaSkvYaedcXPQ" name="world" dataManager="_elNckLbdEeaSkvYaedcXPQ"/>
+</xmi:XMI>
