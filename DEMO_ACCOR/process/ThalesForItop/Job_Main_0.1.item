@@ -7,18 +7,30 @@
     <contextParameter comment="" name="CLOG_Info" prompt="CLOG_Info?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="3"/>
     <contextParameter comment="" name="CLOG_Trace" prompt="CLOG_Trace?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="CLOG_Warn" prompt="CLOG_Warn?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="4"/>
+    <contextParameter comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value=""/>
+    <contextParameter comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="root"/>
+    <contextParameter comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_Password" value="RX/CTwlUNiA="/>
+    <contextParameter comment="" name="MYSQL_Port" prompt="MYSQL_Port?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="localhost"/>
     <contextParameter comment="" name="param1" prompt="param1?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="toto"/>
     <contextParameter comment="" name="param2" prompt="param2?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tata"/>
   </context>
   <context confirmationNeeded="false" name="QA">
-    <contextParameter comment="" name="param1" prompt="param1?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tutu"/>
-    <contextParameter comment="" name="param2" prompt="param2?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="lulu"/>
-    <contextParameter comment="" name="CLOG_Trace" prompt="CLOG_Trace?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="CLOG_Debug" prompt="CLOG_Debug?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="2"/>
-    <contextParameter comment="" name="CLOG_Info" prompt="CLOG_Info?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="3"/>
-    <contextParameter comment="" name="CLOG_Warn" prompt="CLOG_Warn?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="4"/>
     <contextParameter comment="" name="CLOG_Error" prompt="CLOG_Error?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="5"/>
     <contextParameter comment="" name="CLOG_Fatal" prompt="CLOG_Fatal?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="6"/>
+    <contextParameter comment="" name="CLOG_Info" prompt="CLOG_Info?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="3"/>
+    <contextParameter comment="" name="CLOG_Trace" prompt="CLOG_Trace?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="CLOG_Warn" prompt="CLOG_Warn?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="4"/>
+    <contextParameter comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value=""/>
+    <contextParameter comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="root"/>
+    <contextParameter comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_Password" value="RX/CTwlUNiA="/>
+    <contextParameter comment="" name="MYSQL_Port" prompt="MYSQL_Port?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="param1" prompt="param1?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tutu"/>
+    <contextParameter comment="" name="param2" prompt="param2?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="lulu"/>
   </context>
   <context confirmationNeeded="false" name="PROD">
     <contextParameter comment="" name="CLOG_Debug" prompt="CLOG_Debug?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="2"/>
@@ -27,6 +39,12 @@
     <contextParameter comment="" name="CLOG_Info" prompt="CLOG_Info?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="3"/>
     <contextParameter comment="" name="CLOG_Trace" prompt="CLOG_Trace?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="CLOG_Warn" prompt="CLOG_Warn?" promptNeeded="false" repositoryContextId="_P8tnMHUEEeK2IKZo_36quA" type="id_Integer" value="4"/>
+    <contextParameter comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value=""/>
+    <contextParameter comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="root"/>
+    <contextParameter comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_Password" value="RX/CTwlUNiA="/>
+    <contextParameter comment="" name="MYSQL_Port" prompt="MYSQL_Port?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="localhost"/>
     <contextParameter comment="" name="param1" prompt="param1?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tito"/>
     <contextParameter comment="" name="param2" prompt="param2?" promptNeeded="false" repositoryContextId="_2iDnYKdfEeaf7u_rTb06Hw" type="id_String" value="tita"/>
   </context>
