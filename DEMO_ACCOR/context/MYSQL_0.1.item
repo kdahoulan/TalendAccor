@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_eO8RoLbdEeaSkvYaedcXPQ" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_eO8RobbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_eO8RorbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Port" prompt="MYSQL_Port?" promptNeeded="false" type="id_String" value="3306"/>
-  <contextParameter xmi:id="_eO8Ro7bdEeaSkvYaedcXPQ" comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
-  <contextParameter xmi:id="_eO8RpLbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
-  <contextParameter xmi:id="_eO8RpbbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" type="id_String" value="root"/>
-  <contextParameter xmi:id="_eO8RprbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" type="id_Password" value="RX/CTwlUNiA="/>
-</talendfile:ContextType>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_eO8RoLbdEeaSkvYaedcXPQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_eO8RobbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_eO8RorbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Port" prompt="MYSQL_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_eO8Ro7bdEeaSkvYaedcXPQ" comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_eO8RpLbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_eO8RpbbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_eO8RprbdEeaSkvYaedcXPQ" comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" type="id_Password" value="RX/CTwlUNiA="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_uOXQ0LbfEeaSkvYaedcXPQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_uOXQ0bbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_uOXQ0rbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Port" prompt="MYSQL_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_uOXQ07bfEeaSkvYaedcXPQ" comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_uOXQ1LbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_uOXQ1bbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_uOXQ1rbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" type="id_Password" value="RX/CTwlUNiA="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_uOXQ17bfEeaSkvYaedcXPQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_uOXQ2LbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_uOXQ2bbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Port" prompt="MYSQL_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_uOXQ2rbfEeaSkvYaedcXPQ" comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_uOXQ27bfEeaSkvYaedcXPQ" comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_uOXQ3LbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_uOXQ3bbfEeaSkvYaedcXPQ" comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" type="id_Password" value="RX/CTwlUNiA="/>
+  </talendfile:ContextType>
+</xmi:XMI>

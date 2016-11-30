@@ -8,6 +8,14 @@
     <contextParameter comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="root"/>
     <contextParameter comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_Password" value="RX/CTwlUNiA="/>
   </context>
+  <context confirmationNeeded="false" name="QA">
+    <contextParameter comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value=""/>
+    <contextParameter comment="" name="MYSQL_Port" prompt="MYSQL_Port?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_String" value="root"/>
+    <contextParameter comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" repositoryContextId="_eOwEYLbdEeaSkvYaedcXPQ" type="id_Password" value="RX/CTwlUNiA="/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="128" show="false"/>
