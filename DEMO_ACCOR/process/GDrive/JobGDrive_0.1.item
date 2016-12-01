@@ -115,7 +115,7 @@
   <node componentName="tGoogleDriveGet" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tGoogleDriveGet_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tGoogleDriveConnection_1"/>
     <elementParameter field="TEXT" name="APPLICATION_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_TOKEN" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_PROXY" value="false" show="false"/>
@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="SSL_ALGORITHM" value="&quot;SSL&quot;" show="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" value="" show="false"/>
     <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" value="" show="false"/>
-    <elementParameter field="TEXT" name="FILE_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FILE_NAME" value="&quot;test.txt&quot;"/>
     <elementParameter field="CHECK" name="STORE_TO_LOCAL" value="true"/>
     <elementParameter field="FILE" name="OUTPUT" value="&quot;D:/[Arismore] VEILLE/BENCHMARK/TalendOpenStudio/Data_Integration/Accor/save.txt&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -159,8 +159,8 @@
   </node>
   <node componentName="tGoogleDriveConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tGoogleDriveConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="APPLICATION_NAME" value="&quot;Test&quot;"/>
-    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="APPLICATION_NAME" value="&quot;TalendProject&quot;"/>
+    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="&quot;AIzaSyCpaWTE9dgMaBZjMWQqyHTsGX54nN16BAQ&quot;"/>
     <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
     <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROXY_PORT" value="8087" show="false"/>
