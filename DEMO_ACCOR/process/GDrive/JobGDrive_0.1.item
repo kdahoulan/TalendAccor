@@ -159,8 +159,8 @@
   </node>
   <node componentName="tGoogleDriveConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tGoogleDriveConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="APPLICATION_NAME" value="&quot;TalendProject&quot;"/>
-    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="&quot;AIzaSyCpaWTE9dgMaBZjMWQqyHTsGX54nN16BAQ&quot;"/>
+    <elementParameter field="TEXT" name="APPLICATION_NAME" value="&quot;Talend&quot;"/>
+    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="&quot;hFmSrpnnI0Dl1dkrYJfEEMhv&quot;"/>
     <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
     <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROXY_PORT" value="8087" show="false"/>
