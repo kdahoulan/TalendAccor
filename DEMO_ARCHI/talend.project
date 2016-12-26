@@ -376,4 +376,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_yQq6sstOEeaw0pzB_C6ncg" login="accor@talend.com" firstName="Accor" lastName="ACCOR" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_yECOEctoEeaON80_iqchrg" login="archi_accor@talend.com" firstName="Accor Test" lastName="ACCOR TEST" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_swuaActrEea2ZPOCinK_7A" login="test_accor@talend.com" firstName="Test" lastName="TEST" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
