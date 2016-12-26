@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_yQq6sctOEeaw0pzB_C6ncg" label="Demo_Archi" description="" language="java" technicalLabel="DEMO_ARCHI" creationDate="2016-12-26T10:35:11.612+0100" author="_yQq6sstOEeaw0pzB_C6ncg" productVersion="Talend Data Fabric-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/kdahoulan/TalendAccor&quot;,&quot;login&quot;:&quot;kdahoulan&quot;,&quot;passwd&quot;:&quot;qkOXMdbd7z46o6aolVDSuA==&quot;,&quot;settings&quot;:&quot;001&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM"/>
+  <TalendProperties:User xmi:id="_yQq6sstOEeaw0pzB_C6ncg" login="accor@talend.com" firstName="Accor" lastName="ACCOR" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
