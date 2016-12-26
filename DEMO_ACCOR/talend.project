@@ -644,4 +644,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_RXuMoqweEeaz5_Nk58DCDg" login="admin@company.com" firstName="admin" lastName="admin" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_Tu77oKweEeaz5_Nk58DCDg" login="accor@talend.com" firstName="Accor" lastName="ACCOR" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_vZSCkctpEeawsqpECBwAoQ" login="accor_accor@talend.com" firstName="Accor AccorTest" lastName="ACCOR ACCORTEST" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
