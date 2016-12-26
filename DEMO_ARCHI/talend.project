@@ -375,4 +375,5 @@
     <migrationTask xmi:id="_16W-lMtOEeaw0pzB_C6ncg" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_yQq6sstOEeaw0pzB_C6ncg" login="accor@talend.com" firstName="Accor" lastName="ACCOR" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_yECOEctoEeaON80_iqchrg" login="archi_accor@talend.com" firstName="Accor Test" lastName="ACCOR TEST" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
